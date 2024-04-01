@@ -1,0 +1,10 @@
+body {
+  margin-top: 0px;
+}
+
+.navigationDiv {
+  display: flex;
+  gap: 30px;
+  font-size: 30px;
+  color: grey;
+}
