@@ -1,0 +1,28 @@
+.imageDiv img {
+  max-width: 50px;
+  width: 100%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.profilePictures {
+  max-width: 150px;
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid rgb(80, 248, 80);
+  margin: 30px;
+}
+
+.picturesAndText {
+  margin-bottom: 50px;
+}
+
+.picturesAndText p {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.picturesAndText span {
+  color: rgb(96, 225, 96);
+}
