@@ -39,6 +39,11 @@
   color: black;
 }
 
+.divAbout button:hover {
+  background-color: rgb(95, 134, 95);
+  font-weight: bold;
+}
+
 .ulList li::marker {
   color: rgb(90, 204, 102);
 }
