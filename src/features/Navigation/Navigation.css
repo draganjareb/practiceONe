@@ -1,12 +1,29 @@
 .navigationDiv {
-  display: flex;
-  gap: 80px;
+  gap: 40px;
   font-size: 30px;
   color: grey;
   background-color: lightgrey;
   padding: 20px;
   width: 100%;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.korpa {
+  max-width: 80px;
+  height: 80px;
+  max-width: 100%;
+  margin-left: 100px;
+}
+
+.navigation_list {
+  display: flex;
+  gap: 25px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-left: auto;
 }

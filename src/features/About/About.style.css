@@ -47,3 +47,7 @@
 .ulList li::marker {
   color: rgb(90, 204, 102);
 }
+
+.ulList {
+  text-align: left;
+}
