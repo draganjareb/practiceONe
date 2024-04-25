@@ -1,0 +1,24 @@
+.divPost {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.divPostId {
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid grey;
+  background-color: lightgray;
+  color: black;
+}
+
+.postsButton {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}

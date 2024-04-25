@@ -1,7 +1,9 @@
 import Developer from "../../assets/pictures/developer.jpg";
+import { useClicksStore } from "../Stores/Clicks/Clicks.store";
 import "./About.style.css";
 
 const About = () => {
+  const { clicks } = useClicksStore();
   // const listItems = [
   //   { label: "First Name", value: "Dragan" },
   //   { label: "Last Name", value: "Jareb" },
@@ -13,6 +15,7 @@ const About = () => {
 
   return (
     <div className="divWrapper">
+      <h2>Clicks in about: {clicks}</h2>
       <h2>ABOUT</h2>
       <div className="divAbout">
         <img src={Developer} className="pageTwoPictures" />
@@ -27,6 +30,7 @@ const About = () => {
             <li>Nationallity: Serbian</li>
             <li>Adress: Voždovačka 24</li>
           </ul>
+
           <button>DOWNLOAD RESUME</button>
         </div>
       </div>
