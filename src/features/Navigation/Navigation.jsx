@@ -10,11 +10,12 @@ const Navigation = () => {
           <Link to={{ pathname: "/" }}>Home</Link>
           <Link to={{ pathname: "/about" }}>About</Link>
           <Link to={{ pathname: "/works" }}>Works</Link>
-          {/* <Link to={{ pathname: "/posts" }}>Posts</Link> */}
+          <Link to={{ pathname: "/posts" }}>Posts</Link>
           <Link to={{ pathname: "/contact" }}>Contact</Link>
-          {/* <Link to={{ pathname: "/cart" }}>Cart</Link> */}
-          {/* <Link to={{ pathname: "/clicks" }}>Clicks</Link> */}
+          <Link to={{ pathname: "/cart" }}>Cart</Link>
+          <Link to={{ pathname: "/clicks" }}>Clicks</Link>
           <Link to={{ pathname: "/items" }}>Items</Link>
+          <Link to={{ pathname: "/pokemons" }}>Pokemon</Link>
         </div>
         <CartIcon />
       </div>

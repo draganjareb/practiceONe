@@ -25,8 +25,8 @@ const Home = () => {
           <h1>
             Hi, I am <span>Dragan Jareb</span>
           </h1>
-          <h2>Increment number of clicks</h2>
-          <button onClick={() => decrementNumberOfClicks()}>Clicks here</button>
+          {/* <h2>Increment number of clicks</h2> */}
+          {/* <button onClick={() => decrementNumberOfClicks()}>Clicks here</button> */}
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry standard dummy text ever
