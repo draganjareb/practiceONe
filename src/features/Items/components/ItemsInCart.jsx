@@ -58,23 +58,29 @@ const ItemsInCart = () => {
                   alt={item.title}
                   className="cartPictures"
                 />
-                <h2>{item.title}</h2>
-                <div className="addItemText">
-                  <div className="itemPrice">
-                    <p>$ {item.price}</p>
+                <div className="dataOfOrders">
+                  <h2>{item.title}</h2>
+                  <div className="addItemText">
+                    <div className="itemPrice">
+                      <p>$ {item.price}</p>
+                    </div>
+                    <div className="cartButtons">
+                      <span onClick={() => decreaseItemQuantity(item.id)}>
+                        -
+                      </span>
+                      <span>{item.quantity}</span>
+                      <span onClick={() => increaseItemQuantity(item.id)}>
+                        +
+                      </span>
+                    </div>
                   </div>
-                  <div className="cartButtons">
-                    <span onClick={() => decreaseItemQuantity(item.id)}>-</span>
-                    <span>{item.quantity}</span>
-                    <span onClick={() => increaseItemQuantity(item.id)}>+</span>
-                  </div>
+                  <img
+                    src={recycleBin}
+                    alt="recycle bin"
+                    onClick={() => deletedItem(item.id)}
+                    className="recycleBin"
+                  />
                 </div>
-                <img
-                  src={recycleBin}
-                  alt="recycle bin"
-                  onClick={() => deletedItem(item.id)}
-                  className="recycleBin"
-                />
               </div>
             ))}
             <p>Total price for all items: $ {total.toFixed(2)}</p>

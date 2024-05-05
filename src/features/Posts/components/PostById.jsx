@@ -6,6 +6,7 @@ const PostById = () => {
   const { postId } = useParams();
   const [post, setPost] = useState({});
 
+  //ovo će mi možda trebati na dugme
   const fetchPostById = async () => {
     try {
       const res = await axios.get(

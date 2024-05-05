@@ -87,6 +87,7 @@
   display: flex;
   padding-top: 40px;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 .cartWrapper {
@@ -97,8 +98,8 @@
 
 .addItemWrapper {
   display: flex;
-  gap: 30px;
-  max-width: 600px;
+  gap: 10px;
+  max-width: 700px;
   width: 100%;
   padding: 10px;
   background-color: lightgray;
@@ -108,9 +109,16 @@
   margin-top: 15px;
 }
 
+.addItemWrapper h2 {
+  max-width: 100px;
+  width: 100%;
+}
+
 .addItemText {
   display: flex;
   flex-direction: column;
+  max-width: 170px;
+  width: 100%;
 }
 
 .addItemText h2 {
@@ -154,6 +162,7 @@
   height: 50px;
   width: 100%;
   cursor: pointer;
+  margin: 0 5px;
 }
 
 .cartButtons p {
@@ -186,4 +195,11 @@
   font-weight: 800;
   margin-top: 0px;
   padding-right: 10px;
+}
+
+.dataOfOrders {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

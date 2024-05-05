@@ -5,12 +5,13 @@ import About from "./features/About/About";
 import Contact from "./features/Contact/Contact";
 import Works from "./features/Works/Works";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import Clicks from "./features/Clicks/Clicks";
-// import Posts from "./features/Posts/Posts";
+import Clicks from "./features/Clicks/Clicks";
+import Posts from "./features/Posts/Posts";
 import Items from "./features/Items/Items";
 
-// import Cart from "./features/Cart/Cart";
+import Cart from "./features/Cart/Cart";
 import ItemsInCart from "./features/Items/components/ItemsInCart";
+import Pokemon from "./features/Stores/Pokemon/Pokemon";
 
 const App = () => {
   return (
@@ -21,12 +22,13 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/works" element={<Works />} />
-          {/* <Route path="/posts" element={<Posts />} /> */}
+          <Route path="/posts" element={<Posts />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/clicks" element={<Clicks />} /> */}
-          {/* <Route path="/cart" element={<Cart />} /> */}
+          <Route path="/clicks" element={<Clicks />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/items" element={<Items />} />
           <Route path="/orders" element={<ItemsInCart />} />
+          <Route path="/pokemons" element={<Pokemon />} />
         </Routes>
       </BrowserRouter>
     </>
